@@ -61,7 +61,7 @@ metadata:
 data:
   entando.requires.filesystem.group.override: 'true'
   entando.ingress.class: 'nginx'
-  singleHostName: '$appname.awstest.eng-entando.com'
+  singleHostName: '$appname.104.155.69.46.nip.io'
   entando.pod.completion.timeout.seconds: '2200'
   entando.pod.readiness.timeout.seconds: '2200'" | kubectl apply -f -
 
